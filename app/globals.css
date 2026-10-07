@@ -359,8 +359,10 @@ a:hover .photo img {
 .artwork-image {
   aspect-ratio: 1.92;
 }
-.artwork-image img {
+.artwork-feature .artwork-image img,
+.artwork-feature a:hover .artwork-image img {
   object-fit: contain;
+  transform: none;
   background: #e0d9c7;
 }
 .artwork-caption {
