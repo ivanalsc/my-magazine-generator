@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env*
+!.env.example
+
+/*desktop.png
+/mobile.png
+/small-mobile.png
+/qa/
+
